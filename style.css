@@ -283,14 +283,38 @@ body{
 }
 
 
-@media only screen and(max-width:600px){
-    .home{background-image:url(phone.jpg) ;
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px 5%;
     }
-    .home-content{
-        margin-top: 100%;
-        font-size: 16px;
+
+    .navbar {
+        display: none; /* Hide the navbar on smaller screens */
     }
-    .home-content h1{
-        font: 30px;
+
+    .home-content {
+        max-width: 100%;
+        padding: 0 5%;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 18px;
+    }
+
+    .btn-box {
+        width: 100%;
+    }
+
+    .home-sci {
+        bottom: 20px;
     }
 }
+
